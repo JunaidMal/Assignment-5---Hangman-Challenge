@@ -87,7 +87,8 @@ public class Assignment5 {
             right = right - 1;
             
            }
-    
+           
+           System.out.println("You guessed the right letter!");
             
             // converts the answer to uppercase
             dashes = dashes.toUpperCase();
@@ -98,6 +99,9 @@ public class Assignment5 {
             
             
         } else {
+           
+           System.out.println("Sike, wrong letter!");
+           
            // if the letter guessed is wrong, then remove 1 life and go back to the start of the program
            lives = lives - 1;
        } 
