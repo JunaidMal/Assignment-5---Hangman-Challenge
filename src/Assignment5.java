@@ -122,6 +122,7 @@ public class Assignment5 {
        // if the player lost then they're given a loss message
        else if(lives == 0) {
            System.out.println("You have lost!");
+           System.out.println("The word was " + word);
        }
       
        // asks if player wants to play again, stores answer as "playagain"
