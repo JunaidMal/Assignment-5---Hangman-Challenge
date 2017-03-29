@@ -26,8 +26,17 @@ public class Assignment5 {
         Scanner input = new Scanner(System.in);
         String word = input.nextLine();
 
-        // creates space
-        System.out.println("   ");
+        // creates spaces
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
+            System.out.println("   ");
 
         // takes the length of the word, then converts it into dashes, stored as "dashes"
         int length = word.length();
